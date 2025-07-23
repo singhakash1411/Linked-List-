@@ -19,4 +19,5 @@ int main(){
     Node* nodename= new Node(arr[0]);
     cout<<nodename<<"\n";
     cout<<nodename->data<<"\n";
+
 }
