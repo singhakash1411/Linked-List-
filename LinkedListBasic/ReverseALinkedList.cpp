@@ -1,7 +1,7 @@
 //here the code will be only of the function not the header and main 
 Node* reverse(Node* head){
 
-    // sput the element into the stack because ofk last in first out 
+    // put the element into the stack because of last in first out 
     stack<int>st;
     Node* temp = head;
     while(temp){
@@ -9,7 +9,7 @@ Node* reverse(Node* head){
         temp = temp->next;
     }
      
-    // ab bahar nikal lo and appoint in place of temp 
+    // ab bahar nikal lo element ko and appoint in place of temp 
     temp= head;
     while(temp ){
         temp->data = st.top();
